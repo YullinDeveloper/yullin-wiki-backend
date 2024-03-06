@@ -1,2 +1,4 @@
-package com.yullin.wiki.dto;public class BaseErrorResponse {
+package com.yullin.wiki.dto.response;
+
+public class BaseErrorResponse {
 }

@@ -1,4 +1,4 @@
 package com.yullin.wiki.dto.response.status;
 
-public class ResponseStatus {
+public class BaseResponseStatus {
 }
