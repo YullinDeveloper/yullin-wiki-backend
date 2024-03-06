@@ -1,2 +1,4 @@
-package com.yullin.wiki.security;public class JwtInfo {
+package com.yullin.wiki.security;
+
+public class JwtInfo {
 }

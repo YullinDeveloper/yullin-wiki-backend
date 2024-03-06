@@ -1,2 +1,7 @@
-package com.yullin.wiki.configuration;public class WebConfig {
+package com.yullin.wiki.configuration;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class WebConfig {
 }
