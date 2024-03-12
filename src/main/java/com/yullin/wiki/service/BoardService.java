@@ -11,6 +11,8 @@ public class BoardService {
     private final BoardDao boardDao;
 
     public BoardCardResponse getBoardCard() {
+        // 아무것도 아님
+        System.out.printf(boardDao.toString());
         return new BoardCardResponse();
     }
 }
