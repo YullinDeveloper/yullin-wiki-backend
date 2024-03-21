@@ -1,5 +1,6 @@
 package com.yullin.wiki.domain.Member;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -26,4 +27,5 @@ public class Member {
     private String memberType;
     private Date joinDt;
     private Date lastUpdateDt;
+
 }
