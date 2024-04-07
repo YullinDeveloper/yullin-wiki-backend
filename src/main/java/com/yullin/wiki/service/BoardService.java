@@ -7,17 +7,18 @@ import com.yullin.wiki.dto.response.Board.BoardResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import javax.swing.*;
-import java.util.List;
 
 @Service
 @RequiredArgsConstructor
 public class BoardService {
     private final BoardDao boardDao;
 
-    public BoardCardResponse getBoardCard() {
-        // 아무것도 아님
-        System.out.printf(boardDao.toString());
+    public BoardService(BoardDao boardDao) {
+        this.boardDao = boardDao;
+    }
+
+    public BoardCardResponse getBoardCard(String category) {
+//        BoardCardResponse response = boardDao.findBoardCards(category);
         return new BoardCardResponse();
     }
 
