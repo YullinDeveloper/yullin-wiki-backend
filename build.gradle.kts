@@ -28,6 +28,24 @@ dependencies {
 
 	testImplementation("org.projectlombok:lombok")
 	testAnnotationProcessor("org.projectlombok:lombok")
+
+	// Mybatis
+	implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3")
+
+	// Swagger
+	implementation("io.springfox:springfox-boot-starter:3.0.0")
+	implementation("io.springfox:springfox-swagger-ui:3.0.0")
+	implementation ("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2")
+	implementation("io.springfox:springfox-swagger2:3.0.0")
+	implementation("org.springdoc:springdoc-openapi-ui:1.6.8")
+
+	// servlet
+	implementation("javax.servlet:javax.servlet-api:4.0.1")
+
+
+	// Mysql
+	runtimeOnly("com.h2database:h2")
+	runtimeOnly("mysql:mysql-connector-j")
 }
 
 tasks.withType<Test> {
